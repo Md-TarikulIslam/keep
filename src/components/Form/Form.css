@@ -1,0 +1,18 @@
+.red, .green, .yellow{
+    position: relative;
+    right: 600px;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 5px;
+
+}
+
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
