@@ -1,0 +1,30 @@
+.full-form{
+    border: 1px solid grey;
+    margin-top: 20px;
+    width: 600px;
+    height: 670px;
+    margin-left: 450px;
+    border-radius: 15px;
+    overflow-y: hidden;
+    box-shadow: 10px 10px 15px 0px rgb(157, 215, 235);
+    margin-bottom: 20px;
+}
+.red, .green, .yellow{
+    position: relative;
+    right: 220px;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    bottom: 70px;
+
+}
+
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}

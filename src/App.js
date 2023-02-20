@@ -1,10 +1,11 @@
 import './App.css';
-import Form from './components/Form/Form';
+import Frame from './components/Frame/Frame';
+
 
 function App() {
   return (
     <div className="App">
-     <Form></Form>
+      <Frame></Frame>
     </div>
   );
 }
