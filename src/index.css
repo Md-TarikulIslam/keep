@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* @font-face {
+  font-family: 'Arvo';
+  src: local('Arvo'), url(./fonts/Arvo/Arvo-Regular.ttf) format('truetype');
+} */

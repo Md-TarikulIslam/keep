@@ -13,7 +13,8 @@
 .start, .end, .middle{
     border: 1px solid white;
     height: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
  
 }
@@ -25,7 +26,7 @@
     margin-left: 30px;
 }
 .end{
-    margin-left: 65px;
+    margin-right: 30px;
 }
 .middle{
     color: white;
@@ -34,5 +35,9 @@
     font-weight: 700;
     font-size: 20px;
     border: none;
- 
+    width: 120px;
+}
+
+.middle:hover{
+    color: black;
 }

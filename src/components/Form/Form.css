@@ -1,9 +1,10 @@
 .form-design{
     position: relative;
-    bottom: 100px;
+    bottom: 80px;
     display: flex;
     flex-direction: column;
     width: 400px;
+    height: 450px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
@@ -14,6 +15,7 @@
 .dot-design{
     text-align: left;
     padding-left: 30px;
+    padding-bottom:20px ;
     background-color: teal;
     margin: 0;
     border-top-right-radius: 20px;
@@ -24,7 +26,7 @@
 }
 .keep{
     position: relative;
-    top: -90px;
+    top: -80px;
     color: red;
 }
 .extra{
