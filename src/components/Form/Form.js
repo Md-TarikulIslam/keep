@@ -24,7 +24,7 @@ const Form = ({ subject, setSubject, text, setText, notes, setNotes }) => {
             }]
 
         }))
-        setText("")
+        setSubject("")
         setText("")
 
     }
