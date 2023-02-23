@@ -24,7 +24,9 @@ const Frame = () => {
                 notes={notes}
                 setNotes={setNotes}
                 ></Form>
+
             </div>
+           
         </div>
     );
     function getNotesFromStorage(){
