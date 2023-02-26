@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Table } from 'react-bootstrap';
+import { Button, Table } from 'react-bootstrap';
 // import { FontAwesomeIcon } from '@font-awesome/react-font-awesome'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPenNib, faTrash } from '@fortawesome/free-solid-svg-icons';
@@ -9,6 +9,7 @@ import { faPenNib, faTrash } from '@fortawesome/free-solid-svg-icons';
 import './Info.css'
 import ModalStyle from '../Modal/ModalStyle';
 import Footer from '../Footer/Footer';
+import { Link } from 'react-router-dom';
 
 
 const Info = () => {
@@ -45,10 +46,11 @@ const Info = () => {
   }, []);
 
   return (
-    <div >
-
-      <Table striped bordered hover className='Arvo w-50 table-warning mid'>
-        <thead className='text-start'>
+    <div className='flex'>
+    
+    <Link to='/'><Button variant='primary' className='mt-5 mb-4 back-btn'>Back to Home</Button></Link>
+      <Table striped bordered hover className='Arvo  table-warning mid'>
+        <thead className='text-start size'>
           <tr>
             <th className=''>Subject</th>
             <th className=''>Text</th>
@@ -61,9 +63,9 @@ const Info = () => {
             allTodoList.map((item, i) => {
               const { subject, text, id } = item;
               return (
-                <tr className='text-start '>
-                  <td className=''>{subject}</td>
-                  <td className=''>{text}</td>
+                <tr className='text-start size'>
+                  <td>{subject}</td>
+                  <td>{text}</td>
                   <td className='size icon'><FontAwesomeIcon title='edit' data-bs-toggle="modal" data-bs-target="#exampleModal" className='fa-2x ms-3 edit' icon={faPenNib} onClick={()=>editHandler(id)} /> <FontAwesomeIcon title='delete' className='fa-2x delete' icon={faTrash} onClick={() => {
                     deleteHandler(id)
                   }} /></td>

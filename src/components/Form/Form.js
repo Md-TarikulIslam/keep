@@ -1,5 +1,5 @@
 import React from 'react';
-import Information from '../Information/Information';
+// import Information from '../Information/Information';
 import './Form.css'
 
 const Form = ({ subject, setSubject, text, setText, notes, setNotes }) => {
