@@ -46,10 +46,10 @@ const Info = () => {
   }, []);
 
   return (
-    <div className='flex'>
+    <div>
     
     <Link to='/'><Button variant='primary' className='mt-5 mb-4 back-btn'>Back to Home</Button></Link>
-      <Table striped bordered hover className='Arvo  table-warning mid'>
+      <Table striped bordered hover className='Arvo w-50 table-warning mid'>
         <thead className='text-start size'>
           <tr>
             <th className=''>Subject</th>

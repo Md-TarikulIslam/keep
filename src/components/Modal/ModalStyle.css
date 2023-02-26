@@ -1,0 +1,18 @@
+.show, .fade, .show{
+    padding-right: 0;
+}
+#editsub, #edittext{
+    width: 100%;
+}
+#exampleModal{
+    padding-right: 0;
+}
+@media only screen and (max-width:576px){
+    .modal-center{
+        margin-left: 300px;
+       
+    }
+    .show, .fade{
+        padding-right: 0;
+    }
+}

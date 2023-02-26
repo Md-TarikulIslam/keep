@@ -1,4 +1,5 @@
 import React from "react";
+import './ModalStyle.css'
 
 const ModalStyle = ({editId, allTodoList, setAllTodoList}) => {
   const updateHandler=()=>{
@@ -18,7 +19,7 @@ const ModalStyle = ({editId, allTodoList, setAllTodoList}) => {
     localStorage.setItem('notes', JSON.stringify(updatedNotes));
   }
   return (
-    <div>
+    <div className="modal-center">
       <div
         className="modal fade"
         id="exampleModal"
@@ -39,8 +40,8 @@ const ModalStyle = ({editId, allTodoList, setAllTodoList}) => {
                 aria-label="Close"
               ></button>
             </div>
-            <div className="modal-body">Subject: <input id="editsub" type="text" /> </div>
-            <div className="modal-body">Text: <textarea name="" id="edittext" cols="30" rows="5"></textarea></div>
+            <div className="modal-body">Subject: <br /> <input id="editsub" type="text" /> </div>
+            <div className="modal-body">Text: <br /> <textarea name="" id="edittext" cols="30" rows="5"></textarea></div>
             <div className="modal-footer">
               <button
                 type="button"

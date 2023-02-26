@@ -29,7 +29,7 @@
     color: green;
 }
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:576px){
     .full-form{
         margin-left: -1px;
         margin-top: 300px;

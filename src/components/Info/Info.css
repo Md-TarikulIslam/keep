@@ -1,13 +1,8 @@
 .mid{
-    display: block;
-    margin-left: 470px;
+
+    margin-left: auto;
+    margin-right: auto;
    
-}
-.flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* margin-left: 100px; */
 }
 
 .edit{
@@ -17,7 +12,7 @@
     display: flex;
 }
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:576px){
     .icon{
         display: flex;
         flex-direction: row;
@@ -28,9 +23,16 @@
     }
     .mid{
         margin-left: 0px;
+        margin-right: 0;
+        padding-right: 0;
+        width: 30%;
+    }
+    .icon{
+        padding-right: 0;
     }
     .size{
         width: 150px;
+    
     }
     .back-btn{
         margin-left: 180px;
