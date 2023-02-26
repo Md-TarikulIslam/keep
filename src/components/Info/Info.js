@@ -49,6 +49,7 @@ const Info = () => {
     <div>
     
     <Link to='/'><Button variant='primary' className='mt-5 mb-4 back-btn'>Back to Home</Button></Link>
+    <div className='table-responsive'>
       <Table striped bordered hover className='Arvo w-50 table-warning mid'>
         <thead className='text-start size'>
           <tr>
@@ -78,6 +79,7 @@ const Info = () => {
 
         </tbody>
       </Table>
+      </div>
       <Footer></Footer>
     </div>
   );
