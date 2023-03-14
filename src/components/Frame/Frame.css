@@ -29,10 +29,14 @@
     color: green;
 }
 
-@media only screen and (max-width:576px){
+@media  screen and (max-width:576px){
     .full-form{
-        margin-left: -1px;
+        margin-left: 0px;
         margin-top: 300px;
+        width: 600px;
+        /* overflow: block; */
+        zoom:65%;
+      
         
     }
 }
